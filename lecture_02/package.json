@@ -1,0 +1,32 @@
+{
+  "name": "lecture_02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "webpack --config webpack.config.js",
+    "start": "babel-node src/server.js",
+    "lint": "eslint src",
+    "format": "prettier --write src"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.14.1",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.26.0",
+    "express": "^4.17.1",
+    "open": "^8.0.8",
+    "path": "^0.12.7",
+    "prettier": "^2.2.1",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-middleware": "^4.1.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.1"
+  }
+}
